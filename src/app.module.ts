@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { MarketsModule } from './markets/markets.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { CurrenciesModule } from './currencies/currencies.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
       inject: [ConfigService],
     }),
     MarketsModule,
+    CurrenciesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
