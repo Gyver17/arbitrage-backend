@@ -5,6 +5,7 @@ import { MarketsModule } from './markets/markets.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { CurrenciesModule } from './currencies/currencies.module';
+import { OpportunitiesModule } from './opportunities/opportunities.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { CurrenciesModule } from './currencies/currencies.module';
     }),
     MarketsModule,
     CurrenciesModule,
+    OpportunitiesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
