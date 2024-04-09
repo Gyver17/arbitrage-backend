@@ -12,16 +12,16 @@ export const defaultMarkets: Market[] = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
-  {
-    name: 'Bittrex',
-    tickerRestEndpoint: 'https://api.bittrex.com/v3/markets/${ticker}/ticker',
-    image:
-      'https://assets.weforum.org/organization/image/KPoV1fh1OSzqmvd9PJxtVAp8vmtCFcAE8FSvUWTGxDM.jpg',
-    website: 'https://global.bittrex.com',
-    status: MarketStatus.Active,
-    createdAt: new Date(),
-    updatedAt: new Date(),
-  },
+  // {
+  //   name: 'Bittrex',
+  //   tickerRestEndpoint: 'https://api.bittrex.com/v3/markets/${ticker}/ticker',
+  //   image:
+  //     'https://assets.weforum.org/organization/image/KPoV1fh1OSzqmvd9PJxtVAp8vmtCFcAE8FSvUWTGxDM.jpg',
+  //   website: 'https://global.bittrex.com',
+  //   status: MarketStatus.Active,
+  //   createdAt: new Date(),
+  //   updatedAt: new Date(),
+  // },
   {
     name: 'Coinbase',
     tickerRestEndpoint:
@@ -44,17 +44,17 @@ export const defaultMarkets: Market[] = [
     createdAt: new Date(),
     updatedAt: new Date(),
   },
-  {
-    name: 'Gate.io',
-    tickerRestEndpoint:
-      'https://api.gateio.ws/api/v4/flash_swap/currencies?currency=${ticker}',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvt_U4lThKAOYZKqYf-M5J4KQPt1e-OHsC9cMEH_-lA&s',
-    website: 'https://www.okx.com',
-    status: MarketStatus.Active,
-    createdAt: new Date(),
-    updatedAt: new Date(),
-  },
+  // {
+  //   name: 'Gate.io',
+  //   tickerRestEndpoint:
+  //     'https://api.gateio.ws/api/v4/flash_swap/currencies?currency=${ticker}',
+  //   image:
+  //     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvt_U4lThKAOYZKqYf-M5J4KQPt1e-OHsC9cMEH_-lA&s',
+  //   website: 'https://www.okx.com',
+  //   status: MarketStatus.Active,
+  //   createdAt: new Date(),
+  //   updatedAt: new Date(),
+  // },
   //   {
   //     name: 'Bybit',
   //     tickerRestEndpoint:
